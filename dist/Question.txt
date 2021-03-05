@@ -1,10 +1,0 @@
-id,question,option1,option2,option3,option4,answer1,How many consonants are there in the English alphabet?,20,21,40,19,212,Which is the tallest mountain in the world?,MtFuji,MtEverest,Himalayas,nilgiri,MtEverest3,Which famous children s book has two characters named Tweedledum and Tweedledee?,Alice in wonderland,oliver twist,famous five,secret seven,Alice in wonderland4,Which planet is known as the Red Planet?,Earth,Mars,Jupiter,Saturn,Mars5,When did India's first virtual toy fair take place,February 5 2021,February 27 2021,February 22 2021,February 25 2021,February 27 20216,Who is the father of Geometry?,Aristotle,Euclid,Pythagoras,Kepler,Euclid7,Which is a leap year?,2020,2001,2002,2004,2020
-8,When does winter happen?,march,april,july,december,december
-9,Which is largest bank of india?,SBI,UBI,PNB,ICICI,SBI
-10,Which Planet Has the Most Moons?,jupiter,saturn,neptune,uranus,jupiter
-11,Which is the hottest season of the year?,May,December,July,October,May
-12,National flower of India,lotus,sunflower,rose,jasmin,lotus
-13,National Animal of India,Lion,Tiger,monkey,goat,Tiger
-14,Which is rainy season?,May,April,July,December,July
-15,National Anthem of India,Chak de India,VandeMataram,Jana Gana Mana,mere desh ki dharti,Jana Gana Mana
-16,National Fruit of India,apple,orange,banana,mango,mango
