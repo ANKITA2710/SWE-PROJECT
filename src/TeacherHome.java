@@ -155,7 +155,9 @@ public class TeacherHome extends javax.swing.JFrame {
         // TODO add your handling code here:
         setVisible(false);
         try {
+            
             new Progress().setVisible(true);
+            this.setVisible(false);
         } catch (IOException ex) {
             Logger.getLogger(TeacherHome.class.getName()).log(Level.SEVERE, null, ex);
         }

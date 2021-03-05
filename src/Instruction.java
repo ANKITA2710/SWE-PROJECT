@@ -53,6 +53,11 @@ public String roll;
         jTextArea1.setFont(new java.awt.Font("Franklin Gothic Medium", 1, 12)); // NOI18N
         jTextArea1.setRows(5);
         jTextArea1.setText("Basic Instructions for Online Examinations:\n\nA. General information:\n\n1. The examination will comprise of Objective type Multiple Choice Questions (MCQs)\n2. All questions are compulsory and each carries One mark.\n3. The total number of questions, duration of examination, will be different based on\nthe course, the detail is available on your screen.\n4. The Subjects or topics covered in the exam will be as per the Syllabus.\n5. There will be NO NEGATIVE MARKING for the wrong answers.\n\nB. Information & Instructions:\n\n1. The examination does not require using any paper, pen, pencil and calculator.\n2. Every student will take the examination on a Laptop/Desktop/Smart Phone\n3. On computer screen every student will be given objective type type Multiple Choice\nQuestions (MCQs).\n4. Each student will get questions and answers in different order selected randomly\nfrom a fixed Question Databank.\n5. The students just need to click on the Right Choice / Correct option from the\nmultiple choices /options given with each question. For Multiple Choice Questions,\neach question has four options, and the candidate has to click the appropriate\noption.\n\nCandidates are requested to take the test honestly, ethically, and should follow all the\ninstructions.");
+        jTextArea1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextArea1MouseClicked(evt);
+            }
+        });
         jScrollPane1.setViewportView(jTextArea1);
 
         jButton1.setBackground(new java.awt.Color(255, 51, 51));
@@ -112,6 +117,11 @@ public String roll;
         setVisible(false);
        new StudentDetails().setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jTextArea1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextArea1MouseClicked
+        // TODO add your handling code here:
+        jTextArea1.setEditable(false);
+    }//GEN-LAST:event_jTextArea1MouseClicked
 
     /**
      * @param args the command line arguments

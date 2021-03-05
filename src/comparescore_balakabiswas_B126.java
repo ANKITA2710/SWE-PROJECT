@@ -30,7 +30,7 @@ public class comparescore_balakabiswas_B126 extends javax.swing.JFrame {
     public comparescore_balakabiswas_B126() throws IOException {
         initComponents();
         ViewAllmgr v=new ViewAllmgr();
-        String path="C:\\Users\\prias\\Desktop\\EXAM SYSTEM\\EXAMFORM\\Marks.txt";
+        String path="Marks.txt";
         String[]columns=v.View(path);
         DefaultTableModel model = (DefaultTableModel)jTable1.getModel();
 	model.setColumnIdentifiers(columns);

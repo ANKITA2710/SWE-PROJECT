@@ -111,6 +111,9 @@
                 <Property name="rows" type="int" value="5"/>
                 <Property name="text" type="java.lang.String" value="Basic Instructions for Online Examinations:&#xa;&#xa;A. General information:&#xa;&#xa;1. The examination will comprise of Objective type Multiple Choice Questions (MCQs)&#xa;2. All questions are compulsory and each carries One mark.&#xa;3. The total number of questions, duration of examination, will be different based on&#xa;the course, the detail is available on your screen.&#xa;4. The Subjects or topics covered in the exam will be as per the Syllabus.&#xa;5. There will be NO NEGATIVE MARKING for the wrong answers.&#xa;&#xa;B. Information &amp; Instructions:&#xa;&#xa;1. The examination does not require using any paper, pen, pencil and calculator.&#xa;2. Every student will take the examination on a Laptop/Desktop/Smart Phone&#xa;3. On computer screen every student will be given objective type type Multiple Choice&#xa;Questions (MCQs).&#xa;4. Each student will get questions and answers in different order selected randomly&#xa;from a fixed Question Databank.&#xa;5. The students just need to click on the Right Choice / Correct option from the&#xa;multiple choices /options given with each question. For Multiple Choice Questions,&#xa;each question has four options, and the candidate has to click the appropriate&#xa;option.&#xa;&#xa;Candidates are requested to take the test honestly, ethically, and should follow all the&#xa;instructions."/>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTextArea1MouseClicked"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>

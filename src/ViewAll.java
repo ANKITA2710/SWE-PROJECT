@@ -43,7 +43,7 @@ public class ViewAll extends javax.swing.JFrame {
         }*/
         
         ViewAllmgr v=new ViewAllmgr();
-        String path="C:\\Users\\prias\\Desktop\\EXAM SYSTEM\\EXAMFORM\\Question.txt";
+        String path="Question.txt";
         String[]columns=v.View(path);
         DefaultTableModel model = (DefaultTableModel)jTable1.getModel();
 	model.setColumnIdentifiers(columns);
@@ -69,7 +69,6 @@ public class ViewAll extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -79,8 +78,6 @@ public class ViewAll extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(246, 220, 242));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 51, 204), 4));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/examform/all questions.png"))); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Trebuchet MS", 1, 48)); // NOI18N
         jLabel2.setText("VIEW ALL QUESTIONS");
@@ -122,8 +119,7 @@ public class ViewAll extends javax.swing.JFrame {
                             .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(32, 32, 32))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addGap(18, 18, 18)
+                        .addGap(78, 78, 78)
                         .addComponent(jLabel2)
                         .addContainerGap(402, Short.MAX_VALUE))))
         );
@@ -133,10 +129,8 @@ public class ViewAll extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jButton1)
                 .addGap(9, 9, 9)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 405, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(35, 35, 35))
         );
@@ -217,7 +211,6 @@ public class ViewAll extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;

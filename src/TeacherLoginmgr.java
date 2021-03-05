@@ -15,7 +15,7 @@ import java.io.IOException;
  * @author prias
  */
 public class TeacherLoginmgr {
- public void login(String path,String username,String password) throws IOException
+ public boolean login(String path,String username,String password) throws IOException
     {
         BufferedReader buff=null;
         String line="";
@@ -29,8 +29,8 @@ public class TeacherLoginmgr {
                 //System.out.println("user");
                 if(file[0].equals(username) && file[1].equals(password))
                 {
-                    new TeacherHome().setVisible(true);
-                    
+                    //new TeacherHome().setVisible(true);
+                    return true;
                 }
                 
             }
@@ -44,6 +44,7 @@ public class TeacherLoginmgr {
         {
             e.printStackTrace();
         }
+     return false;
         
         
         

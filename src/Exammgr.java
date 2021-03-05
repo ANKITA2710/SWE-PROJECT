@@ -38,7 +38,7 @@ public class Exammgr {
         String line="";
         try
         {
-          BufferedReader buff=new BufferedReader(new FileReader("C:\\Users\\prias\\Desktop\\EXAM SYSTEM\\EXAMFORM\\Question.txt"));
+          BufferedReader buff=new BufferedReader(new FileReader("Question.txt"));
             buff.readLine();
             while((line=buff.readLine())!=null)
             {
@@ -64,7 +64,7 @@ public class Exammgr {
         String line="";
         try
         {
-          BufferedReader buff=new BufferedReader(new FileReader("C:\\Users\\prias\\Desktop\\EXAM SYSTEM\\EXAMFORM\\Question.txt"));
+          BufferedReader buff=new BufferedReader(new FileReader("Question.txt"));
             buff.readLine();
             while((line=buff.readLine())!=null)
             {
@@ -90,7 +90,7 @@ public class Exammgr {
         String line="";
         try
         {
-          BufferedReader buff=new BufferedReader(new FileReader("C:\\Users\\prias\\Desktop\\EXAM SYSTEM\\EXAMFORM\\Question.txt"));
+          BufferedReader buff=new BufferedReader(new FileReader("Question.txt"));
             buff.readLine();
             while((line=buff.readLine())!=null)
             {
@@ -116,7 +116,7 @@ public class Exammgr {
         String line="";
         try
         {
-          BufferedReader buff=new BufferedReader(new FileReader("C:\\Users\\prias\\Desktop\\EXAM SYSTEM\\EXAMFORM\\Question.txt"));
+          BufferedReader buff=new BufferedReader(new FileReader("Question.txt"));
             buff.readLine();
             while((line=buff.readLine())!=null)
             {
@@ -142,7 +142,7 @@ public class Exammgr {
         String line="";
         try
         {
-          BufferedReader buff=new BufferedReader(new FileReader("C:\\Users\\prias\\Desktop\\EXAM SYSTEM\\EXAMFORM\\Question.txt"));
+          BufferedReader buff=new BufferedReader(new FileReader("Question.txt"));
             buff.readLine();
             while((line=buff.readLine())!=null)
             {
@@ -168,7 +168,7 @@ public class Exammgr {
         String line="";
         try
         {
-          BufferedReader buff=new BufferedReader(new FileReader("C:\\Users\\prias\\Desktop\\EXAM SYSTEM\\EXAMFORM\\Question.txt"));
+          BufferedReader buff=new BufferedReader(new FileReader("Question.txt"));
             buff.readLine();
             while((line=buff.readLine())!=null)
             {
@@ -194,7 +194,7 @@ public class Exammgr {
         String line="";
         try
         {
-          BufferedReader buff=new BufferedReader(new FileReader("C:\\Users\\prias\\Desktop\\EXAM SYSTEM\\EXAMFORM\\Question.txt"));
+          BufferedReader buff=new BufferedReader(new FileReader("Question.txt"));
             buff.readLine();
             while((line=buff.readLine())!=null)
             {

@@ -15,7 +15,7 @@ import java.io.IOException;
  * @author prias
  */
 public class Loginmgr {
-    public void abc(String path,String username,String password) throws IOException
+    public boolean abc(String path,String username,String password) throws IOException
     {
         BufferedReader buff=null;
         String line="";
@@ -29,8 +29,8 @@ public class Loginmgr {
                 //System.out.println("user");
                 if(file[0].equals(username) && file[1].equals(password))
                 {
-                    
-                    new samplehomepage_balakabiswas_B126().setVisible(true);
+                    return true;
+                    //new samplehomepage_balakabiswas_B126().setVisible(true);
                     
                 }
                 
@@ -45,6 +45,7 @@ public class Loginmgr {
         {
             e.printStackTrace();
         }
+        return false;
         
         
         
