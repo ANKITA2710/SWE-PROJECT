@@ -1,0 +1,11 @@
+name,roll,marks
+AN,90,2
+an,89,2
+ANKITA,12,1
+JJJ,90,2
+anj,8,3
+aa,77,5
+ANU,78,0
+syu,90,1
+aww,67,3
+SARTHAK,21,3
